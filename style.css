@@ -1,1 +1,62 @@
 @import url(./reset.css);
+
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar #menu {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar #search-bar {
+  display: flex;
+  width: 348px;
+  height: 40px;
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.nav-bar #search-bar input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.nav-bar #search-bar #lupa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  border-left: 1px solid rgba(204, 204, 204, 1);
+}
+
+.nav-bar #search-bar #lupa img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-bar #profile-bar {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar #profile-bar #picture {
+  width: 34px;
+  height: 34px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: url('./assets/images/download.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
